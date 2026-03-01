@@ -1,7 +1,7 @@
 import serial
 import time
 
-arduino = serial.Serial('COM5', 9600, timeout=1)
+arduino = serial.Serial('COM5', 9600, timeout=1) // Aqui onde está escrito COM5 você precisa mudar para porta do arduino mestre
 time.sleep(2)
 
 def explicar_byte(n):
@@ -30,4 +30,5 @@ while True:
         else:
             print("Valor fora da faixa")
     except ValueError:
+
         print("Sla")
