@@ -1,0 +1,7 @@
+No computador, um programa em Python envia um número (de 0 a 65535) pela porta serial para um Arduino. Esse número tem 16 bits (65535 total),
+então o Arduino principal (mestre) pega os 8 bits menos significativos (LSB) e mostra diretamente nos pinos digitais (acendendo LEDs, por exemplo),
+enquanto os 8 bits mais significativos (MSB) são enviados via comunicação I2C para um segundo Arduino (escravo).
+Esse segundo Arduino recebe esse byte e também mostra seus 8 bits nos próprios pinos. Ou seja,
+o sistema divide um número de 16 bits em duas partes: metade aparece no Arduino mestre e a outra metade aparece no Arduino escravo.
+
+Esse sistema foi feito para eu compreender um pouco mais a forma de organização dos binários, usos, calculos e entre outros.
