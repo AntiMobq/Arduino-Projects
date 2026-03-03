@@ -1,1 +1,1 @@
-
+Essa é a primeira versão do meu space invaders, ainda quero fazer uma outra quando eu consertar a backlight da tela lcd grande, por enquanto estou ultilizando um display de 4 matrizes como tela no jogo e uma tela lcd genérica para pontuação, a pinagem em si é unica pois o módulo de atari que estou ultilizando é DIY, mas o código fonte do jogo todo está aqui livre.
