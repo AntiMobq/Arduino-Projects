@@ -1,1 +1,1 @@
-
+O código em C++ é um stress test para um display de 4 matrizes e uma tela lcd, eu gostei dos resultados, para pinagem somente leia os códigos e saiba o significado de vcc e gnd
